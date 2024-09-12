@@ -1,0 +1,38 @@
+salas com lampadas 1,2,3
+botão 1,2,3
+
+aperto botão 1 e 2 , vou na sala 1 :
+    se estiver ligado:
+        volto ate a sala principal e desligo botão 1:
+            vou para sala 2:
+                se estiver ligado:
+                    botão 1 pertence a sala 1
+                    botão 2 pertence a sala 2
+                    botão 3 pertence a sala 3
+                se tiver desligado:                    
+                    botão 1 pertence a sala 2
+                    botão 2 pertence a sala 1
+                    botão 3 pertence a sala 3
+    
+    se estiver desligado:
+        botão 3 pertence a sala 1
+        
+        desligo o botão 1:
+            vou para sala 2:
+                se estiver ligado:
+                    botão 1 pertence a sala 3
+                    botão 2 pertence a sala 2 
+                    botão 3 pertence a sala 1
+                se estiver desligado:
+                    botão 1 pertence a sala 2 
+                    botão 2 pertence a sala 3
+                    botão 3 perrtence a saã 1
+
+(
+    ((1,1), (2,2), (3,3)),
+    ((1,2), (2,1), (3,3)),
+    ((1,3), (2,2), (3,1)), 
+    ((1,2), (2,3), (3,1))
+)
+
+Todas as opções foram correspondidas!
