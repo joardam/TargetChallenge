@@ -1,0 +1,7 @@
+a) Lógica é de 2 em 2 , resultado é 9
+b) Lógica é 2**n , resultado é 128
+c) É uma progressão de segunda ordem , com a razão 2i - 1, Resultado é 36 + 2*7 -1 = 36 + 13 =
+     49
+d) 2**n , resultado é 128
+e) Fibonacci , resultado é 13
+f) Resultado é 20
